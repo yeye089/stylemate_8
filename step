@@ -1,0 +1,82 @@
+# main.py 맨 위에 입력
+
+from team8.start.calendar_functions import save_schedule, load_schedule, delete_schedule
+
+# 캘린더 부분
+
+class CalendarPage(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        layout = QVBoxLayout()
+
+        title = QLabel("캘린더 & 다이어리")
+        title.setStyleSheet("font-size: 28px; font-weight: bold;")
+
+        card = QFrame()
+        card_layout = QVBoxLayout()
+        self.info = QLabel("날짜별 코디 및 메모 기록 영역")
+
+        save_btn = QPushButton("오늘 코디 저장")
+        load_btn = QPushButton("저장된 코디 불러오기")
+        delete_btn = QPushButton("오늘 코디 삭제")
+
+        save_btn.clicked.connect(self.save_calendar_data)
+        load_btn.clicked.connect(self.load_calendar_data)
+        delete_btn.clicked.connect(self.delete_calendar_data)
+
+        card_layout.addWidget(self.info)
+        card_layout.addSpacing(20)
+        card_layout.addWidget(save_btn)
+        card_layout.addWidget(load_btn)
+        card_layout.addWidget(delete_btn)
+
+        card.setLayout(card_layout)
+
+        layout.addWidget(title)
+        layout.addSpacing(20)
+        layout.addWidget(card)
+
+        self.setLayout(layout)
+
+    def save_calendar_data(self):
+        date = "2026-05-11"
+        outfit = ["후드티", "청바지"]
+        memo = "친구 만남"
+
+        save_schedule(date, outfit, memo)
+
+        self.info.setText("저장 완료!")
+
+    def load_calendar_data(self):
+        date = "2026-05-11"
+
+        record = load_schedule(date)
+
+        if record is None:
+            self.info.setText("저장된 기록이 없습니다.")
+        else:
+            outfit_text = ", ".join(record["outfit"])
+
+            self.info.setText(
+                f"날짜: {record['date']}\n"
+                f"코디: {outfit_text}\n"
+                f"메모: {record['memo']}"
+            )
+
+    def delete_calendar_data(self):
+        date = "2026-05-11"
+
+        result = delete_schedule(date)
+
+        if result:
+            self.info.setText("삭제 완료!")
+        else:
+            self.info.setText("삭제할 기록이 없습니다.")
+
+
+# 추후 수정
+
+date = 선택된_날짜
+outfit = 입력된_코디
+memo = 입력된_메모
