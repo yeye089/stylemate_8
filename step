@@ -1,6 +1,6 @@
 # main.py 맨 위에 입력
 
-from team8.start.calendar_functions import save_schedule, load_schedule, delete_schedule
+from calendar_functions import save_schedule, load_schedule, delete_schedule
 
 # 캘린더 부분
 
