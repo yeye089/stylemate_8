@@ -1,0 +1,106 @@
+[
+    {
+        "name": "흰색 티셔츠",
+        "category": "상의",
+        "type": "티셔츠",
+        "color": "흰색",
+        "season": [
+            "봄",
+            "여름",
+            "가을"
+        ],
+        "mood": [
+            "캐주얼",
+            "심플"
+        ],
+        "excluded": false,
+        "icon": "👕"
+    },
+    {
+        "name": "검정 후드티",
+        "category": "상의",
+        "type": "후드티",
+        "color": "검정",
+        "season": [
+            "가을",
+            "겨울",
+            "봄"
+        ],
+        "mood": [
+            "캐주얼",
+            "힙",
+            "스트릿"
+        ],
+        "excluded": false,
+        "icon": "👕"
+    },
+    {
+        "name": "청바지",
+        "category": "하의",
+        "type": "청바지",
+        "color": "파랑",
+        "season": [
+            "봄",
+            "여름",
+            "가을",
+            "겨울"
+        ],
+        "mood": [
+            "캐주얼",
+            "심플"
+        ],
+        "excluded": false,
+        "icon": "👖"
+    },
+    {
+        "name": "검정 슬랙스",
+        "category": "하의",
+        "type": "슬랙스",
+        "color": "검정",
+        "season": [
+            "봄",
+            "가을",
+            "겨울"
+        ],
+        "mood": [
+            "포멀",
+            "심플"
+        ],
+        "excluded": false,
+        "icon": "👖"
+    },
+    {
+        "name": "검정 자켓",
+        "category": "아우터",
+        "type": "자켓",
+        "color": "검정",
+        "season": [
+            "가을",
+            "겨울",
+            "봄"
+        ],
+        "mood": [
+            "포멀",
+            "모던"
+        ],
+        "excluded": false,
+        "icon": "🧥"
+    },
+    {
+        "name": "베이지 코트",
+        "category": "아우터",
+        "type": "코트",
+        "color": "베이지",
+        "season": [
+            "가을",
+            "겨울"
+        ],
+        "mood": [
+            "포멀",
+            "페미닌",
+            "모던"
+        ],
+        "excluded": false,
+        "icon": "🧥"
+    }
+]

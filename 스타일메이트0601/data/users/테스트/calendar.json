@@ -1,0 +1,48 @@
+[
+    {
+        "date": "2026-05-20",
+        "outfit": {
+            "top": {
+                "name": "흰색 티셔츠",
+                "category": "상의",
+                "color": "흰색",
+                "icon": "👕"
+            },
+            "bottom": {
+                "name": "청바지",
+                "category": "하의",
+                "color": "파랑",
+                "icon": "👖"
+            }
+        },
+        "mood": "행복",
+        "weather": "맑음",
+        "memo": "친구들과 카페에서 만남"
+    },
+    {
+        "date": "2026-05-22",
+        "outfit": {
+            "top": {
+                "name": "검정 후드티",
+                "category": "상의",
+                "color": "검정",
+                "icon": "👕"
+            },
+            "bottom": {
+                "name": "검정 슬랙스",
+                "category": "하의",
+                "color": "검정",
+                "icon": "👖"
+            },
+            "outer": {
+                "name": "검정 자켓",
+                "category": "아우터",
+                "color": "검정",
+                "icon": "🧥"
+            }
+        },
+        "mood": "편안함",
+        "weather": "흐림",
+        "memo": "수업 발표"
+    }
+]

@@ -1,0 +1,112 @@
+{
+    "liked": [
+        {
+            "outfit": {
+                "style": "캐주얼",
+                "mood": "심플",
+                "outfit": {
+                    "top": {
+                        "name": "흰색 티셔츠",
+                        "color": "흰색"
+                    },
+                    "bottom": {
+                        "name": "청바지",
+                        "color": "파랑"
+                    }
+                }
+            },
+            "timestamp": "2026-05-20T14:30:00"
+        },
+        {
+            "outfit": {
+                "outfit": {
+                    "top": {
+                        "name": "흰색 티셔츠",
+                        "category": "상의",
+                        "type": "티셔츠",
+                        "color": "흰색",
+                        "season": [
+                            "봄",
+                            "여름",
+                            "가을"
+                        ],
+                        "mood": [
+                            "캐주얼",
+                            "심플"
+                        ],
+                        "excluded": false,
+                        "icon": "👕"
+                    },
+                    "bottom": {
+                        "name": "청바지",
+                        "category": "하의",
+                        "type": "청바지",
+                        "color": "파랑",
+                        "season": [
+                            "봄",
+                            "여름",
+                            "가을",
+                            "겨울"
+                        ],
+                        "mood": [
+                            "캐주얼",
+                            "심플"
+                        ],
+                        "excluded": false,
+                        "icon": "👖"
+                    }
+                },
+                "style": "심플",
+                "explanation": "AI 연결 없이 학습된 취향으로 추천했어요 💕",
+                "mood": "심플",
+                "weather": null,
+                "season": "여름",
+                "similar_recommendations": [
+                    {
+                        "mood": "캐주얼",
+                        "outfit": {
+                            "top": {
+                                "name": "흰색 티셔츠",
+                                "category": "상의",
+                                "type": "티셔츠",
+                                "color": "흰색",
+                                "season": [
+                                    "봄",
+                                    "여름",
+                                    "가을"
+                                ],
+                                "mood": [
+                                    "캐주얼",
+                                    "심플"
+                                ],
+                                "excluded": false,
+                                "icon": "👕"
+                            },
+                            "bottom": {
+                                "name": "청바지",
+                                "category": "하의",
+                                "type": "청바지",
+                                "color": "파랑",
+                                "season": [
+                                    "봄",
+                                    "여름",
+                                    "가을",
+                                    "겨울"
+                                ],
+                                "mood": [
+                                    "캐주얼",
+                                    "심플"
+                                ],
+                                "excluded": false,
+                                "icon": "👖"
+                            }
+                        }
+                    }
+                ],
+                "ai_message": "오늘도 멋진 코디 해보세요 💕"
+            },
+            "timestamp": "2026-06-01T12:35:14.350793"
+        }
+    ],
+    "disliked": []
+}

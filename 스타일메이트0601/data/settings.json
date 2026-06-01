@@ -1,0 +1,5 @@
+{
+    "openai_api_key": "",
+    "weather_api_key": "",
+    "default_city": "Seoul"
+}
